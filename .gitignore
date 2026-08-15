@@ -1,0 +1,97 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*-key.json
+credentials*.json
+my_env.tfvars
+.locust_env
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+.venv*/
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+coverage.xml
+nosetests.xml
+
+# Databases & Local Storage
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+*.db-journal
+.persist_vector_store
+data/*.db
+data/*.sqlite
+
+# Logs & Temporary Files
+*.log
+/tmp/
+tmp*
+error
+Agent
+.saved_chats/
+
+# AI Agent & ADK Cache
+.adk/
+.google-agents-cli/
+.agents-cli-scripts/
+
+# IDE & Editor Configs
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+.spyderproject
+.spyproject
+.ropeproject
+.qodo/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Browser Automation & Playwright Artifacts
+test-results/
+playwright-report/
+.playwright/
+blob-report/
+
+# Candidate Documents (Personal data)
+*.pdf
